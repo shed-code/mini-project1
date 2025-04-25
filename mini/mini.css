@@ -1,0 +1,227 @@
+body{ background-color: rgb(221, 241, 202);
+    font-size: 16px / 1.5 arial,hevetical,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{margin:0;
+padding: 0;}
+.button:hover{ 
+    height: 30px;
+    background-color: aquamarine;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: azure 3px solid;
+}
+.dark{
+    padding: 15px;
+    background-color: rgb(24, 242, 100);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+header{
+    background-color: rgb(6, 238, 87);
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #ffffff 5px solid;
+    position: sticky;
+    top: 0;
+}
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+   
+header #branding{
+    float: left; 
+}
+.light{color: rgb(246, 255, 0);}
+header #branding h1{
+margin: 0;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+header.highlit,.current a, header a:hover{
+    color: #e5ff55;
+    font-weight: bold;
+}
+#showcase{
+    min-height: 400px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: rgb(11, 11, 11);
+    background: url(../futo.jpg);
+    
+}
+#showcase h1{
+    margin-top: 50px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+#showcase p{
+    font-size: 30px;
+}
+.news{ 
+    padding: 15px;
+    color: hsla(69, 24%, 94%, 0.729);
+    background-color: aqua;
+}
+.news h1{
+    float: left;
+}
+.news form{
+    float: right;
+    margin-top: 15px;
+}
+.news input[type="email"]:hover{ padding: 4;
+    height: 25px;
+    width: 250px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.ADDRESS{
+    text-align: center;
+    font-size: medium;
+}
+#boxes{
+    margin-top: 20px;
+    height: 500px;
+    background-color: brown;
+}
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px; 
+}
+#boxes .box img{
+    width: 250px;
+    justify-content: center;
+}
+#music{margin-top:50px;
+    margin-bottom:50px;
+    height: 190px;
+    background-color: brown;
+}
+#music .box1{  float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+justify-content: center;
+}
+#video {margin-top:50px;
+    margin-bottom:50px;
+    height: 550px;
+    background-color: brown;
+}
+#video .box2{float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+justify-content: center;
+}
+#video .box2 video{ width: 250px;
+    justify-content: center;
+
+}
+#sidebar{
+    float:right;
+    width: 60%;
+    margin-top: 10px;
+}
+.content2{
+    background-color: chartreuse;
+    height: 335px;
+    width: 30%;
+}
+footer{padding: 20px;
+    margin-top: 20px;
+color: #ffffff;
+background-color: green;
+text-align: center;
+border-top: #ffffff 5px solid;
+}
+.kc{
+    justify-content: center;
+align-items: center;
+display: flex; 
+background-image: url(../grass.jpg);
+border-radius: 10px;
+padding: 30px 40px;
+height: 500px;
+}
+.rap{
+    width: 420px;
+    border-radius: 10px;
+    height:420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+}
+    
+.rap h1{
+    text-align: center;
+    font-size: 36px;
+}
+.rap .form1{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    justify-content: center;
+    border-radius: 20px;
+}
+.form1 input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 20px;
+}
+.form1 input::placeholder{
+    color: #ffffff;
+    font-size: 15px;
+}
+.remeber-forget{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin: -15px 0 15px;
+    color: #ffffff;
+}
+.btn{
+    width: 100%;
+    height: 45px;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.regin{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff;
+}
+.rap a{
+    color: #c9ef0a;
+}
